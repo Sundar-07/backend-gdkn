@@ -2,6 +2,10 @@ const express = require("express");
 const CustomerModels = require("../models/CustomerModels");
 const router = express.Router();
 
+router.get("/",(req,res)=>{
+  res.send("Please Check the API routes")
+})
+
 //getting all customers data
 router.get("/selectCustomers", async (req, res) => {
   try {
