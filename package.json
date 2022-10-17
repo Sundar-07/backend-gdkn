@@ -1,0 +1,21 @@
+{
+  "name": "customer_web_app_api",
+  "version": "1.0.0",
+  "description": "REST API for customer web api",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Sundararajan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
